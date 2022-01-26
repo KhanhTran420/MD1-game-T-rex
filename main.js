@@ -3,6 +3,8 @@ const castus = document.getElementById("cactus")
 let lastleft = 1;
 
 
+
+
   // lấy local từ máy
 const highScore = document.getElementById("high_score");
 let  hpoint = parseInt(window.localStorage.getItem('highScore') || '0')
@@ -19,7 +21,7 @@ function jump() {
 
         setTimeout(function () {
             dino.classList.remove("jump")
-        }, 400);
+        }, 800);
     }
 }
 

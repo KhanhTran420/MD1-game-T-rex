@@ -3,6 +3,9 @@
     height: 200px;
     border: 1px solid black;
     margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("hinh-nen-canh-dong-co-xanh-cho-dien-thoai_030217236.jpg");
 }
 
 #dino {
@@ -16,7 +19,7 @@
 }
 
 .jump{
-    animation: jump 0.4s linear;
+    animation: jump 0.8s linear;
 }
 
 
